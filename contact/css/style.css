@@ -1,0 +1,71 @@
+body {
+    background-color: #fafafa;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.header {
+    background-color: #ffffff;
+    color: #14141e;
+    height: 60px;
+    overflow: auto;
+}
+.portfolio{
+    margin-left: 30px;
+    position: absolute;
+    font-size: larger;
+}
+.buttons{
+    text-align: end;
+    position: relative;
+    padding: 19px;
+    font-size: larger;
+}
+.home {
+    color: rgb(44, 139, 255);
+    text-decoration: none;
+    margin-right: 35px;
+    height: 60px;
+    width: 80px;
+}
+.contact {
+    color: rgb(5, 87, 187);
+    text-decoration: none;
+    margin-right: 30px;
+    height: 60px;
+    width: 80px;
+}
+input[type=text], input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: rgb(44, 139, 255);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: large;
+}
+input[type=submit]:hover {
+    background-color: rgb(13, 109, 226);
+}
+.container {
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 20px;
+    width: 50%;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ster {
+    display: inline;
+    color: red;
+}
