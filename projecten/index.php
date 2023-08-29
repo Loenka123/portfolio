@@ -16,29 +16,25 @@
             <a href="../contact/index.html" class="contact">Contact</a>
         </div>
     </div>
-    <table>
-        <thead>
-            <tr>
-                <th>Project</th>
-                <th>Datum</th>
-                <th>Link</th>
-            </tr>
-        </thead>
-        <tbody>
-        <?php
-            require_once "../db/db.php";
-            $statement = $db->query("SELECT * FROM projecten");
-            while ($row = $statement->fetch()) {
-            ?>
-                <tr>
-                    <th><?= $row['project']?></th>
-                    <th><?= $row['datum']?></th>
-                    <th><?= $row['link']?></th>
-                </tr>
-            <?php
+    <div class="row">
+    <?php
+        require_once "../db/db.php";
+        $statement = $db->query("SELECT * FROM projecten");
+        $counter = 0;
+        while ($row = $statement->fetch()) {
+            if ($counter % 3 == 0 && $counter > 0) {
+                ?>
+                    </div><div class="row">
+                <?php
             }
-        ?>
-        </tbody>
-    </table>
+    ?>
+        <div class="column">
+            <a href="<?= $row['link']?>"><img class="project" src="<?= $row['foto']?>" style="width:100%"></a>
+        </div>
+    <?php
+            $counter++;
+        }
+    ?>
+</div>
 </body>
 </html>
