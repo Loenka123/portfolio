@@ -13,7 +13,7 @@
         <div class="buttons">
             <a href="../index.html" class="home">Home</a>
             <a href="../about/index.html" class="about">About</a>
-            <a href="projecten/index.php" class="projecten">Projecten</a>
+            <a href="#" class="projecten">Projecten</a>
             <a href="../contact/index.html" class="contact">Contact</a>
         </div>
     </div>
