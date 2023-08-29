@@ -27,6 +27,13 @@ body {
     height: 60px;
     width: 80px;
 }
+.projecten {
+    color: rgb(44, 139, 255);
+    text-decoration: none;
+    margin-right: 35px;
+    height: 60px;
+    width: 80px;
+}
 .contact {
     color: rgb(5, 87, 187);
     text-decoration: none;
