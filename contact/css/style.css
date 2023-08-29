@@ -27,6 +27,13 @@ body {
     height: 60px;
     width: 80px;
 }
+.about {
+    color: rgb(44, 139, 255);
+    text-decoration: none;
+    margin-right: 35px;
+    height: 60px;
+    width: 80px;
+}
 .projecten {
     color: rgb(44, 139, 255);
     text-decoration: none;
@@ -40,6 +47,17 @@ body {
     margin-right: 30px;
     height: 60px;
     width: 80px;
+}
+.titel {
+    text-align: center;
+    margin: 10px;
+    padding: 0px;
+}
+.ondertitel {
+    text-align: center;
+    font-size: larger;
+    margin: 0px;
+    padding: 0px;
 }
 input[type=text], input[type=email], select, textarea {
     width: 100%;
