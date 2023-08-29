@@ -18,23 +18,25 @@
     </div>
     <div class="row">
     <?php
-        require_once "../db/db.php";
-        $statement = $db->query("SELECT * FROM projecten");
-        $counter = 0;
-        while ($row = $statement->fetch()) {
-            if ($counter % 3 == 0 && $counter > 0) {
-                ?>
-                    </div><div class="row">
-                <?php
-            }
-    ?>
-        <div class="column">
-            <a href="<?= $row['link']?>"><img class="project" src="<?= $row['foto']?>" style="width:100%"></a>
-        </div>
-    <?php
-            $counter++;
+    require_once "../db/db.php";
+    $statement = $db->query("SELECT * FROM projecten");
+    $counter = 0;
+    while ($row = $statement->fetch()) {
+        if ($counter % 3 == 0 && $counter > 0) {
+            echo '</div><div class="row">';
         }
+        ?>
+        <div class="column">
+            <div class="project-container">
+                <a href="<?= $row['link']?>"><img class="project" src="<?= $row['foto']?>" alt="<?= $row['title']?>"></a>
+                <div class="project-naam"><?= $row['project']?></div>
+                <div class="project-beschrijving"><?= $row['beschrijving']?></div>
+            </div>
+        </div>
+        <?php
+        $counter++;
+    }
     ?>
-</div>
+    </div>
 </body>
 </html>

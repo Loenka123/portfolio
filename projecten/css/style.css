@@ -56,4 +56,28 @@ body {
 }
 .project {
     border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+.project-container {
+    position: relative;
+}
+.project-naam {
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 7.5px;
+    border-radius: 7.5px;
+}
+.project-beschrijving {
+    position: absolute;
+    bottom: 12.5px;
+    left: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 3px;
+    border-radius: 3px;
+    font-size: small;
 }
