@@ -7,11 +7,11 @@ $bericht = "Beste heer/mevrouw,\n\nUw email is ontvangen en wij proberen zo snel
 
 if (mail($email, $onderwerp, $bericht)) {
     echo "Email succesvol verzonden.";
+    $redirectUrl = "index.html";
+    header("Location: " . $redirectUrl);
+    exit();
 } else {
     echo "Er is iets fout gegaan bij het verzenden van de email.";
+    exit();
 }
-
-$redirectUrl = "index.html";
-header("Location: " . $redirectUrl);
-exit();
 ?>
