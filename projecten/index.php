@@ -41,6 +41,7 @@
                     </a>
                     <div class="project-naam"><?= $row['project']?></div>
                     <div class="project-beschrijving"><?= $row['beschrijving']?></div>
+                    <div class="project-datum"><?= $row['datum']?></div>
                 </div>
             </div>
             <?php

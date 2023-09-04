@@ -97,8 +97,8 @@ body {
 }
 .project-naam {
     position: absolute;
-    bottom: 40px;
-    left: 10px;
+    bottom: 50px;
+    left: 5px;
     color: white;
     background-color: rgba(0, 0, 0, 0.7);
     padding: 7.5px;
@@ -106,8 +106,18 @@ body {
 }
 .project-beschrijving {
     position: absolute;
-    bottom: 10px;
-    left: 10px;
+    bottom: 27.5px;
+    left: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 3px;
+    border-radius: 3px;
+    font-size: small;
+}
+.project-datum {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
     color: white;
     background-color: rgba(0, 0, 0, 0.7);
     padding: 3px;

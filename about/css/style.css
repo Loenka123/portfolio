@@ -69,12 +69,15 @@ body {
     flex-wrap: wrap;
 }
 .info {
-    flex-basis: calc(33.33% - 10px);
+    flex-basis: calc(40% - 10px);
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    padding: 10px;
     background-color: #ffffff;
     border-radius: 10px;
     height: 45vh;
+    bottom: 10px;
 }
 .hoofdtekst {
     text-align: center;

@@ -65,3 +65,8 @@ body {
     font-size: 24px;
     margin-top: 10px;
 }
+.intro p {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
