@@ -12,7 +12,7 @@
         <p class="portfolio">Portfolio</p>
         <div class="buttons">
             <a href="../index.html" class="home">Home</a>
-            <a href="../about/index.html" class="about">About</a>
+            <a href="../about/index.html" class="about">Over Mij</a>
             <a href="#" class="projecten">Projecten</a>
             <a href="../contact/index.html" class="contact">Contact</a>
         </div>
